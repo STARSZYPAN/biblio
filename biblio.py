@@ -40,12 +40,5 @@ def get_movies(baza: list):
         if isinstance(f,Film) and not  isinstance (f,Serial):
             result.append(f)
         return result
-
-
-
-
-    
-    
 for f in baza:
     print(f)
-
